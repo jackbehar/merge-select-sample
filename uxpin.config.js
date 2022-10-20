@@ -60,6 +60,7 @@ module.exports = {
         name: 'Card',
         include: [
           'src/components/Card/Card.js',
+          'src/components/CardNew/CardNew.js',
           'src/components/CardActions/CardActions.js',
           'src/components/CardActionArea/CardActionArea.js',
           'src/components/CardContent/CardContent.js',
