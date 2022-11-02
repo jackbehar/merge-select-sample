@@ -8,11 +8,10 @@ import { iconVariants } from '../Icon/icon-variants'
  * @uxpindocurl https://mui.com/components/buttons/#main-content
  */
 function Button(props) {
-  const { uxpinRef, ...other } = props;
+
   return (
     <ButtonM
-      {...other}
-      ref={uxpinRef}
+      {...props}
       startIcon={props.startIcon && <Icon>{props.startIcon}</Icon>}
       endIcon={props.endIcon && <Icon>{props.endIcon}</Icon>}
     >
